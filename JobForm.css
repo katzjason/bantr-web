@@ -1,0 +1,11 @@
+@import url("http://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("http://fonts.cdnfonts.com/css/work-sans");
+
+.job-listing-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 30px;
+}

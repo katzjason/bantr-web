@@ -1,0 +1,18 @@
+@import url("http://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("http://fonts.cdnfonts.com/css/work-sans");
+
+.mascot-column-container {
+  text-align: center;
+  width: 400px;
+  margin-bottom: 75px;
+}
+
+.feature-description {
+  font-family: "Work sans", san-serif;
+  font-size: 16px;
+  font-weight: 300;
+  align-self: center;
+  width: 350px;
+  margin: auto;
+}
+

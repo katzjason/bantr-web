@@ -1,0 +1,23 @@
+@import url("http://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("http://fonts.cdnfonts.com/css/work-sans");
+
+
+.links-container{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.linkedin-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a.linkedin-link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: black;
+  
+}

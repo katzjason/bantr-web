@@ -1,0 +1,171 @@
+@import url("http://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("http://fonts.cdnfonts.com/css/work-sans");
+
+/* CSS selectors unaffected by screen size */
+.gradient-background-container {
+  /* height: 100%; */
+  display: flex;
+  padding-top: 50px;
+  background: linear-gradient(
+    270deg,
+    #ff9000 -2.83%,
+    #ff771f 22.08%,
+    #ff5a43 55.28%,
+    #ff4859 82.25%,
+    #ff4262 99.89%
+  );
+}
+
+.landing-text-container{
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 7%;
+  min-width: 375px;
+  width: 40%;
+  position: static;
+  z-index: 0;
+}
+
+.landing-mockup-container{
+  display: flex;
+  width: 60%;
+  padding-right: 5%;
+  position: static;
+  z-index: 2;
+  
+}
+
+.landing-description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.download-button {
+  margin-top: 20px;
+  width: 250px;
+  height: 45px;
+  border: solid;
+  border-color: white;
+  background: none;
+  font-family: "Montserrat Alternates", san-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+}
+
+.mockup {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  
+  
+  /* object-fit: scale-down; */
+  /* width: 100px; */
+  
+  /* max-width: 800px;
+  object-fit:  */
+  /* width: 1100px;
+  height: 700px;
+  object-fit: scale-down; */
+  /* object-position: -100px; */
+}
+
+/* Responsiveness through CSS media queries */
+@media screen and (max-width : 768px) {
+  .gradient-background-container{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (min-width : 769px){
+  .gradient-background-container{
+    flex-direction: row;
+    height: 600px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+/* before responsiveness */
+/* .temporary-gradient-background {
+  background: linear-gradient(
+    270deg,
+    #ff9000 -2.83%,
+    #ff771f 22.08%,
+    #ff5a43 55.28%,
+    #ff4859 82.25%,
+    #ff4262 99.89%
+  );
+  height: 100%;
+}
+
+.landing-container-mobile {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-container-desktop {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.landing-text-mobile {
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 5%;
+}
+
+.landing-text-desktop {
+  width: 400px;
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 5%;
+  flex-shrink: 0;
+}
+
+.landing-description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.landing-mockup {
+  margin-top: -50px;
+  width: 700px;
+  flex-shrink: 5;
+}
+
+.mockup {
+  width: 1100px;
+  height: 700px;
+  object-fit: scale-down;
+  object-position: -100px;
+}
+
+.launch-button {
+  margin-top: 20px;
+  width: 250px;
+  height: 45px;
+  border: solid;
+  border-color: white;
+  background: none;
+  font-family: "Montserrat Alternates", san-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+} */

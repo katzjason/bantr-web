@@ -1,0 +1,34 @@
+@import url("http://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("http://fonts.cdnfonts.com/css/work-sans");
+
+.listing-container {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  text-decoration: none;
+  background: -webkit-linear-gradient(
+    270deg,
+    #ff9000 -2.83%,
+    #ff771f 22.08%,
+    #ff5a43 55.28%,
+    #ff4859 82.25%,
+    #ff4262 99.89%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Work sans", san-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.job-location {
+  font-family: "Work sans", san-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a.job-title:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff4859;
+}
